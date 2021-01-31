@@ -7,7 +7,7 @@ Widget horizontalRule() {
     width: double.infinity - 16,
     height: 0.3,
     color: Colors.grey,
-  ),
+  );
 } 
 
 Widget dayContainer(String day, bool flag) {
