@@ -2,4 +2,4 @@
 
 A new Flutter project.
 
-<p align="center" width="50" height="100"> <img src="app.gif"> </p>
+<p align="center"> <img src="app.gif" width="150" height="300"> </p>
