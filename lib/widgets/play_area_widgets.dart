@@ -1,6 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_assignment/widgets/theme_widgets.dart';
 
+Widget horizontalRule() {
+  return Container(
+    margin: EdgeInsets.symmetric(vertical: 12),
+    width: double.infinity - 16,
+    height: 0.3,
+    color: Colors.grey,
+  ),
+} 
+
 Widget dayContainer(String day, bool flag) {
   return Container(
     height: 25,

@@ -40,6 +40,7 @@ class _AreaState extends State<Area> {
 
   @override
   void initState() {  
+    // Setting the images of the Play Areas
     setImg();
     super.initState();
   }
@@ -94,12 +95,7 @@ class _AreaState extends State<Area> {
                           color: themeColorText(widget.theme)
                         ),
                       ),
-                      Container(
-                        margin: EdgeInsets.symmetric(vertical: 12),
-                        width: double.infinity - 16,
-                        height: 0.3,
-                        color: Colors.grey,
-                      ),
+                      horizontalRule(),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
@@ -108,12 +104,7 @@ class _AreaState extends State<Area> {
                           SizedBox()
                         ],
                       ),
-                      Container(
-                        margin: EdgeInsets.symmetric(vertical: 12),
-                        width: double.infinity - 16,
-                        height: 0.3,
-                        color: Colors.grey,
-                      ),
+                      horizontalRule(),
                       Text(
                         "Days Open",
                         style: TextStyle(
@@ -122,12 +113,7 @@ class _AreaState extends State<Area> {
                       ),
                       SizedBox(height: 8),
                       weekDays(),
-                      Container(
-                        margin: EdgeInsets.symmetric(vertical: 15),
-                        width: double.infinity - 16,
-                        height: 0.3,
-                        color: Colors.grey,
-                      ),
+                      horizontalRule(),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
